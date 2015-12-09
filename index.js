@@ -1,7 +1,6 @@
 var request = require("request-promise"),
     cheerio = require("cheerio"),
     Q = require("bluebird");
-    async = require("async");
 
 function getParamFromUrlQuery(name, url) {
     if (!url) url = location.href;
